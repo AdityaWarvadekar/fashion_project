@@ -1,0 +1,73 @@
+
+.carousels{
+    height: 40vw;
+    display: flex;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    color: white;
+    z-index: 9;
+    margin: 20vw;
+    width: 40%;
+    height: 8vw;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+}
+
+.text{
+    height: 16vw;
+    /* background-color: blueviolet; */
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    animation: move 4s infinite;
+}
+
+.text .blocks {
+    height: 8vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+.carouselimg{
+    width: 80%;
+    filter: brightness(60%)
+}
+
+.carouselimg img{
+    /* height: 100%; */
+    width: 100%;
+}
+
+@keyframes move{
+    
+    55%,60%{
+        transform: translateY(-8vw);
+        opacity: 1;
+      }
+      80%, 100%{
+        transform: translateY(-16vw);
+      }
+      /* 50% {
+        transform: translatey(-11vh);
+      }
+      75% {
+        transform: translatey(-16.5vh);
+      } */
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .carousels{
+        height: 48vw;
+    }
+}

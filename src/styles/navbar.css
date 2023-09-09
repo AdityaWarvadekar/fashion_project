@@ -1,0 +1,39 @@
+
+/* #212529 */
+
+.myNav{
+    /* background-color: #212529; */
+    font-family: "Abril Fatface";
+    color:antiquewhite;
+    background-color: #212529;
+    /* filter: opacity(0); */
+}
+
+.nav-link{
+    color: antiquewhite;
+    margin: 1vh 2vw;
+    font-family: "Montserrat";
+}
+
+.logo{
+    font-size: 8vh;
+    color: antiquewhite;
+    margin: 0;
+}
+
+.myLayout{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    /* filter: opacity(0); */
+}
+
+
+@media only screen and (max-width: 760px){
+    .myLayout{
+        flex-direction: row;
+    }
+}
+    
