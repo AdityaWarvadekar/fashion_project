@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fashion_project/static/css/main.f659623f.css",
+    "main.js": "/fashion_project/static/js/main.051bddab.js",
+    "static/media/simpleGold2.jpg": "/fashion_project/static/media/simpleGold2.d108557227a1595def92.jpg",
+    "static/media/goggles2.jpg": "/fashion_project/static/media/goggles2.f0c1dd8ffcd23834abc1.jpg",
+    "static/media/simpleGold.jpg": "/fashion_project/static/media/simpleGold.f2b946b0f2247772dbd1.jpg",
+    "static/media/style2.jpg": "/fashion_project/static/media/style2.00283b952cc63c0b3cdc.jpg",
+    "static/media/goggles.jpg": "/fashion_project/static/media/goggles.2756597a0782442198ed.jpg",
+    "static/media/perfumes.jpg": "/fashion_project/static/media/perfumes.c5682f9e6108a484d79d.jpg",
+    "static/media/style1.jpg": "/fashion_project/static/media/style1.7e28c3a3af42b7edfb4d.jpg",
+    "static/media/goggles2z.jpg": "/fashion_project/static/media/goggles2z.4087bffe0cc982e59775.jpg",
+    "static/media/gogglesz.jpg": "/fashion_project/static/media/gogglesz.2710631854d041e9728d.jpg",
+    "index.html": "/fashion_project/index.html",
+    "main.f659623f.css.map": "/fashion_project/static/css/main.f659623f.css.map",
+    "main.051bddab.js.map": "/fashion_project/static/js/main.051bddab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f659623f.css",
+    "static/js/main.051bddab.js"
+  ]
+}
